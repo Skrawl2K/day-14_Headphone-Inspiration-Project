@@ -1,0 +1,151 @@
+/* ASSETS */
+
+/* /* 
+Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115); */
+/* ============== GENERELL STYLES============= */
+
+@font-face {
+    font-family: work-sans-light;
+    src: url("../fonts/WorkSans-Light.ttf");
+}
+
+@font-face {
+    font-family: work-sans-medium;
+    src: url("../fonts/WorkSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: work-sans-bold;
+    src: url("../fonts/WorkSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: work-sans-extrabold;
+    src: url("../fonts/WorkSans-ExtraBold.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.WebContainer {
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(80, 80, 80); */
+    background-color: #2e2e2e;
+}
+
+
+.nav2 {
+
+}
+
+/* ============== HEADER STYLES============= */
+.nav1 {
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom: 1px solid black;
+    color: #867772;
+}
+
+.sub-con{
+color: #867772;
+text-decoration: none;
+padding-left: 30rem;
+margin-left: 20rem;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social li a{
+padding-left: 2rem;
+color: #867772;
+text-decoration: none;
+}
+
+.lang{
+    margin-right: 10rem;
+}
+
+main div h2 {
+    display: inline-block;
+    text-align: left;
+    color: #ebccc2;
+    font-family: work-sans-light;
+    padding-top: 10vh;
+    height: 0.5vh;
+    font-size: 3rem;
+    padding-right: 35%;
+    width: 60rem;
+}
+
+main div:nth-of-type(1) {
+    padding: 7vh 0 0 35%;
+    width: 100%;
+}
+
+/* ============== MAIN STYLES============= */
+.float {
+    width: 90%;
+    padding: 40vh 1% 13vh 5%;
+    margin-left: 2%;
+}
+
+.product1 {
+    width: 25%;
+    margin-left: 16rem;
+    padding-bottom: 13rem;
+}
+
+.logo1 {
+    align-items: flex-start;
+    padding-right: 15rem;
+    /* margin-left: -6rem; */
+}
+
+.space1 {
+    height: 2vh;
+}
+
+.product-title {
+    display: inline-block;
+    text-align: left;
+    color: #ebccc2;
+    font-family: work-sans-light;
+    height: 0.5vh;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    margin-right: 47rem;
+}
+
+.product-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-section article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 2rem;
+}
+
+.product-section article p {
+    font-size: 1.5rem;
+    color: #867772;
+    width: 50%;
+    margin-right: 33rem;
+}
+
+/* ============== FOOTER STYLES============= */
