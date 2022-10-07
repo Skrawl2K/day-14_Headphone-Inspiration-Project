@@ -39,11 +39,11 @@ Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 
 }
 
 
-.nav2 {
 
-}
 
 /* ============== HEADER STYLES============= */
+
+/* Navbar top */
 .nav1 {
     position: fixed;
     width: 100%;
@@ -56,11 +56,11 @@ Farben: #2e2e2e / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 
     color: #867772;
 }
 
-.sub-con{
-color: #867772;
-text-decoration: none;
-padding-left: 30rem;
-margin-left: 20rem;
+.sub-con {
+    color: #867772;
+    text-decoration: none;
+    padding-left: 30rem;
+    margin-left: 20rem;
 }
 
 .social {
@@ -68,15 +68,63 @@ margin-left: 20rem;
     justify-content: space-around;
 }
 
-.social li a{
-padding-left: 2rem;
-color: #867772;
-text-decoration: none;
+.social li a {
+    padding-left: 2rem;
+    color: #867772;
+    text-decoration: none;
 }
 
-.lang{
+.lang {
     margin-right: 10rem;
 }
+
+/* Navbar left side */
+
+.nav2-main {
+    position: fixed;
+    /* padding: 15% 0 20% 2.5%; */
+    list-style: none;
+    /* align-self: center; */
+    /* padding-right: 10%; */
+    /* height: 30vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav2-main-a {
+    font-size: 2rem;
+    text-decoration: none;
+    /* padding-left: 60px; */
+}
+
+.nav-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.circle {
+    height: 5vh;
+    width: 2.5vw;
+    border: 1px #ebccc2 solid;
+    border-radius: 50%;
+}
+
+.h-line {
+    border-left: 1px solid #867772;
+    height: 10vh;
+    width: 100%;
+    margin-left: 22.5%;
+    align-self: center;
+}
+
+
+.nav-point {
+    align-self: center;
+}
+
+
+/* Content */
 
 main div h2 {
     display: inline-block;
